@@ -170,13 +170,13 @@ public class VdmDesktop : MonoBehaviour
 			//            m_positionNormal += m_manager.MultiMonitorPositionOffset * ScreenIndex;
 			//            m_rotationNormal = Camera.main.transform.rotation;            
 			if (ScreenIndex == 0) {
-				m_positionNormal = new Vector3(1.75f, 5.0f, -15.39f);
+				m_positionNormal = new Vector3(1.45f, 3.2f, -11.71f);
 				m_rotationNormal.eulerAngles = new Vector3(-15, -90, 0);
 			}
 			else
 			{
-				m_positionNormal = new Vector3(8.583f, 1.4467f, -16.368f);
-				m_rotationNormal.eulerAngles = new Vector3(0, -90, 0);
+				m_positionNormal = new Vector3(7.002f, 1.1f, -11.019f);
+				m_rotationNormal.eulerAngles = new Vector3(10.832f, -31.638f, -0.6530f);
 
 			}
 
