@@ -76,8 +76,32 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="Byn.Media">
+      <HintPath>Assets\WebRtcVideoChat\Plugins\Byn.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="Byn.Media.Native">
+      <HintPath>Assets\WebRtcVideoChat\Plugins\Byn.Media.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="Byn.Common">
+      <HintPath>Assets\WebRtcVideoChat\WebRtcNetwork\Plugins\Byn.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Byn.Net.Native">
+      <HintPath>Assets\WebRtcVideoChat\WebRtcNetwork\Plugins\Byn.Net.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="Byn.Net.Websocket">
+      <HintPath>Assets\WebRtcVideoChat\WebRtcNetwork\Plugins\Byn.Net.Websocket.dll</HintPath>
+    </Reference>
+    <Reference Include="WebRtcCSharp">
+      <HintPath>Assets\WebRtcVideoChat\WebRtcNetwork\Plugins\WebRtcCSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocketSharpUnityMod">
+      <HintPath>Assets\WebRtcVideoChat\WebRtcNetwork\Plugins\WebSocketSharpUnityMod.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Features\CustomUnityVideo\CustomUnityVideo.cs" />
+    <Compile Include="Assets\Features\CustomUnityVideo\CustomUnityVideoApp.cs" />
+    <Compile Include="Assets\RayCastCustom.cs" />
     <Compile Include="Assets\Scripts\VRPawn.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
@@ -181,10 +205,46 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
-    <Compile Include="Assets\VR Desktop Mirror\Scripts\VdmDesktop.cs" />
-    <Compile Include="Assets\VR Desktop Mirror\Scripts\VdmDesktopManager.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\WebRtcNetwork\example\ChatApp.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\WebRtcNetwork\example\DebugHelper.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\WebRtcNetwork\example\MessageList.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\WebRtcNetwork\scripts\BrowserWebRtcNetwork.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\WebRtcNetwork\scripts\BrowserWebRtcNetworkFactory.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\WebRtcNetwork\scripts\UnitySingleton.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\WebRtcNetwork\scripts\WebRtcNetworkFactory.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\example\CallApp.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\example\CallAppUi.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\example\DoubleTab.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\example\ImgFitter.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\scripts\UnityCallFactory.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\scripts\browser\BrowserCallFactory.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\scripts\browser\BrowserMediaNetwork.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\scripts\browser\BrowserWebRtcCall.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\scripts\native\AndroidHelper.cs" />
+    <Compile Include="Assets\WebRtcVideoChat\scripts\native\UnityVideoCapturer.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\DisplacementMapping.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\GazePointAnalyzer.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\GetPixelsExample.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\Loupe.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\MultipleMonitorAnalyzer.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\MultipleMonitorCreator.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\MultipleMonitorLayouter.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\MultipleMonitorRoundLayouter.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\RaycastTest.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\SetMonitorID.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\ToggleMonitors.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Examples\Scripts\UddSceneManager.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Scripts\Lib.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Scripts\Manager.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Scripts\Monitor.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Scripts\TestTexture.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Scripts\Texture.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Scripts\TextureNew.cs" />
+    <Compile Include="Assets\uDesktopDuplication\Scripts\Utility.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\ColorSwitch.shader" />
+    <None Include="Assets\NewUnlitShader.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
@@ -196,8 +256,27 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
-    <None Include="Assets\VR Desktop Mirror\Shader\Monitor.shader" />
+    <None Include="Assets\WebRtcVideoChat\Plugins\Byn.Media.xml" />
+    <None Include="Assets\WebRtcVideoChat\Resources\webrtcvideochatplugin.txt" />
+    <None Include="Assets\WebRtcVideoChat\WebRtcNetwork\LICENSE_WEBRTC.txt" />
+    <None Include="Assets\WebRtcVideoChat\WebRtcNetwork\Plugins\Byn.Common.xml" />
+    <None Include="Assets\WebRtcVideoChat\WebRtcNetwork\Plugins\android\AndroidManifest.xml" />
+    <None Include="Assets\WebRtcVideoChat\WebRtcNetwork\Plugins\android\readme.txt" />
+    <None Include="Assets\WebRtcVideoChat\WebRtcNetwork\Resources\webrtcnetworkplugin.txt" />
+    <None Include="Assets\WebRtcVideoChat\WebRtcNetwork\changelog.txt" />
+    <None Include="Assets\WebRtcVideoChat\WebRtcNetwork\license.txt" />
+    <None Include="Assets\WebRtcVideoChat\WebRtcNetwork\readme.txt" />
+    <None Include="Assets\WebRtcVideoChat\changelog.txt" />
+    <None Include="Assets\WebRtcVideoChat\license.txt" />
+    <None Include="Assets\WebRtcVideoChat\readme.txt" />
     <None Include="Assets\_Creepy_Cat\_3D_Office\_Docs\Doc.txt" />
+    <None Include="Assets\uDesktopDuplication\Shaders\uDD_Common.cginc" />
+    <None Include="Assets\uDesktopDuplication\Shaders\uDD_Params.cginc" />
+    <None Include="Assets\uDesktopDuplication\Shaders\uDD_Standard.shader" />
+    <None Include="Assets\uDesktopDuplication\Shaders\uDD_Unlit.shader" />
+    <None Include="Assets\uDesktopDuplication\Shaders\uDD_Unlit_BlackMask.shader" />
+    <None Include="Assets\uDesktopDuplication\Shaders\uDD_Unlit_Displacement.shader" />
+    <None Include="Assets\uDesktopDuplication\Shaders\uDD_Unlit_Transparent.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

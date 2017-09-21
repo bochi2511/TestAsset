@@ -8,7 +8,7 @@ public class VRPawn : NetworkBehaviour {
     public Transform Head;
     public Transform LeftController;
     public Transform RightController;
-
+	private GameObject rig;
 
     void Start () {
         if (isLocalPlayer) { 
@@ -18,7 +18,14 @@ public class VRPawn : NetworkBehaviour {
         }
 	}
 
-    void OnDestroy()
+	private void Update() {
+		if (isLocalPlayer) {
+			rig = GameObject.Find("[CameraRig]");
+			gameObject.transform.position = rig.transform.position;
+		}
+	}
+
+	void OnDestroy()
     {
         GetComponentInChildren<SteamVR_ControllerManager>().enabled = false;
         GetComponentsInChildren<SteamVR_TrackedObject>(true).ToList().ForEach(x => x.enabled = false);
