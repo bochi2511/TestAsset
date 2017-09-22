@@ -34,6 +34,14 @@ public class RayCastCustomNet : MonoBehaviour {
 //				uDesktopDuplication.Utility.SetCursorPos(ix, iy);
 			}
 		}
+		RaycastHit hit;
+		if (Physics.Raycast(origin, direction, out hit, 100.0f)) {
+			m_line.enabled = true;
+			m_line.SetPosition(0, origin);
+			m_line.SetPosition(1, hit.point);
+			onehit = true;
+		}
+
 		if (!onehit) m_line.enabled = false;
 	}
 }
