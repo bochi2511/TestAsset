@@ -1,0 +1,7 @@
+Revisar .gitignore para ver los archivos grandes ingorados
+Si no hay commits locales y queremos actualizar a la ultima version de GIT hacer:
+   git reset --hard
+   git pull
+
+Luego buscar los archivos grandes por onedrive "C:\Users\Godelius\OneDrive - Empresas SK\Datos adjuntos\VR big files" y copiarlos al path que corresponde (verlo en el .gitignore)
+
