@@ -1,12 +1,171 @@
-[uDD::Log][2017-09-26 14:03:47] Start
-[uDD::Log][2017-09-26 14:03:47] Duplicator::Initialize() => OK.
-[uDD::Log][2017-09-26 14:03:47]     ID    : 0
-[uDD::Log][2017-09-26 14:03:47]     Size  : (1920, 1080)
-[uDD::Log][2017-09-26 14:03:47]     DPI   : (95, 95)
-[uDD::Log][2017-09-26 14:03:47]     Rot   : Landscape
-[uDD::Log][2017-09-26 14:03:47] Duplicator::Initialize() => OK.
-[uDD::Log][2017-09-26 14:03:47]     ID    : 1
-[uDD::Log][2017-09-26 14:03:47]     Size  : (1920, 1080)
-[uDD::Log][2017-09-26 14:03:47]     DPI   : (141, 141)
-[uDD::Log][2017-09-26 14:03:47]     Rot   : Landscape
-[uDD::Log][2017-09-26 14:06:17] Stop
+[uDD::Log][2017-11-23 17:45:50] Start
+[uDD::Log][2017-11-23 17:45:51] Duplicator::Initialize() => OK.
+[uDD::Log][2017-11-23 17:45:51]     ID    : 0
+[uDD::Log][2017-11-23 17:45:51]     Size  : (1920, 1080)
+[uDD::Log][2017-11-23 17:45:51]     DPI   : (95, 95)
+[uDD::Log][2017-11-23 17:45:51]     Rot   : Landscape
+[uDD::Log][2017-11-23 17:45:51] Duplicator::Initialize() => OK.
+[uDD::Log][2017-11-23 17:45:51]     ID    : 1
+[uDD::Log][2017-11-23 17:45:51]     Size  : (1536, 864)
+[uDD::Log][2017-11-23 17:45:51]     DPI   : (113, 113)
+[uDD::Log][2017-11-23 17:45:51]     Rot   : Landscape
+[uDD::Err][2017-11-23 17:45:52] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:52]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:52]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:52] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:52]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:52]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:52] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:52]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:52]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:52] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:52]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:52]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:52] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:52]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:52]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:52] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:52]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:52]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:57] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:57]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:57]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:57] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:57]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:57]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:57] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:57]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:57]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:58] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:58]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:58]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:58] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:58]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:58]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:45:59] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:45:59]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:45:59]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:00] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:00]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:00]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:10] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:10]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:10]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:11] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:11]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:11]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:11] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:11]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:11]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:11] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:11]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:11]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:11] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:11]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:11]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:11] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:11]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:11]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:11] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:11]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:11]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:11] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:11]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:11]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:11] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:11]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:11]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:12] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:12]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:12]     Dest   : (1536, 864)
+[uDD::Err][2017-11-23 17:46:16] Monitor::Render() => Texture sizes are defferent.
+[uDD::Err][2017-11-23 17:46:16]     Source : (1920, 1080)
+[uDD::Err][2017-11-23 17:46:16]     Dest   : (1536, 864)
+[uDD::Log][2017-11-23 17:46:23] Stop
