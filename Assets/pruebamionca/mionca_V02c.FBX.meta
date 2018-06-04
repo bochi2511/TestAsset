@@ -192,6 +192,7 @@ ModelImporter:
     100368: Logo mine 2
     100370: //RootNode
     100372: Object001
+    100374: ' 176_MeshPart2'
     400000: ' 1'
     400002: ' 10'
     400004: ' 100'
@@ -379,6 +380,7 @@ ModelImporter:
     400368: Logo mine 2
     400370: //RootNode
     400372: Object001
+    400374: ' 176_MeshPart2'
     2300000: ' 1'
     2300002: ' 10'
     2300004: ' 100'
@@ -562,6 +564,7 @@ ModelImporter:
     2300360: Logo enaex 2
     2300362: Logo mine 2
     2300364: Object001
+    2300366: ' 176_MeshPart2'
     3300000: ' 1'
     3300002: ' 10'
     3300004: ' 100'
@@ -745,10 +748,12 @@ ModelImporter:
     3300360: Logo enaex 2
     3300362: Logo mine 2
     3300364: Object001
+    3300366: ' 176_MeshPart2'
     4300078: _MeshPart0
     4300080: _MeshPart1
     4300352: _MeshPart0
     4300354: _MeshPart1
+    4300356: _MeshPart2
     4300358: Logo enaex
     4300360: Logo enaex 2
     4300362: Logo mine 2
@@ -786,7 +791,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
